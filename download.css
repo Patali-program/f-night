@@ -1251,9 +1251,6 @@
     src: url(https://fonts.gstatic.com/s/ubuntumono/v17/KFO-CneDtsqEr0keqCMhbC-BL9H1tY0.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-html {
-    
-}
 body {
     margin: 0;
     padding: 0;
@@ -1299,6 +1296,23 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+#heads {
+  color: #fff;
+  margin-top: 8%;
+  text-align: center;
+}
+#head-1 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 53px;
+  font-weight: 800;
+  font-style: normal;
+}
+#head-2 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 33px;
+  font-weight: 800;
+  font-style: normal;
+}
 #download .popup .text .heading h2 {
     color: #f0f8ff;
     font-family: "Poppins", sans-serif;
@@ -1314,12 +1328,32 @@ body {
     font-size: 13px;
 }
 #pad {
-    padding-top: 30%;
+    padding-top: 20%;
 }
 #hove-div {
-    background-color: #0B0B0B;
-    height: 50px;
-    margin: auto;
-    width: 1234px;
-    border-radius: 10px;
+  background-color: #0B0B0B;
+  height: 50px;
+  margin: auto;
+  width: 1000px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3px;
+  padding-top: 4px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#download #pad #hove-div a {
+  background-color: rgb(14, 155, 17);
+  color: #f0f8ff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
