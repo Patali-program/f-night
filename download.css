@@ -1325,6 +1325,10 @@ body {
   border-radius: 8px;
   width: 333px;
   height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1px;
 }
 #download .popup .text .heading h2 {
     color: #f0f8ff;
