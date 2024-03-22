@@ -1315,6 +1315,10 @@ body {
 }
 #popups {
   padding-left: 124px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 49px;
 }
 .popup {
   background-color: #0B0B0B;
