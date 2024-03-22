@@ -1313,12 +1313,21 @@ body {
   font-weight: 800;
   font-style: normal;
 }
+#popups {
+  padding-left: 124px;
+}
+.popup {
+  background-color: #0B0B0B;
+  border-radius: 8px;
+  width: 333px;
+  height: 350px;
+}
 #download .popup .text .heading h2 {
     color: #f0f8ff;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-display: swap;
-    font-size: 35px;
+    font-size: 33px;
 }
 #download .popup .text .details p span{
     color: #f0f8ff;
